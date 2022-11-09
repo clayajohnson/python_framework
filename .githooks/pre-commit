@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# check commit is valid git object
+if git rev-parse --verify HEAD >/dev/null 2>&1; then
+    against=HEAD
+else
+    against=$(git hash-object -t tree /dev/null)
+fi
+
+# prevent non-ASCII filenames from being committed
+if [[ $(git config --bool hooks.allownonascii) != "true" ]] && [[ $(git diff --cached --name-only --diff-filter=A -z $against | LC_ALL=C tr -d '[ -~]\0' | wc -c) != 0 ]]; then
+    printf "[ERROR] cannot commit non-ASCII filename\n"
+    exit 1
+fi
+
+# format python files
+make format
+if [[ $? != 0 ]]; then
+    printf "[ERROR] fix formatting issues before committing\n"
+    exit 1
+fi
+
+# lint python files
+

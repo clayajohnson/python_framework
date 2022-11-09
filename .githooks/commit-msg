@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# ensure commit message on feature branch is prefixed with correct identifier
+if [[ $(git symbolic-ref --short HEAD) != "master" ]]; then
+    if ! [[ $(head -n1 $1) =~ ^\[[A-Z]{3}-[0-9]{1,4}\].* ]]; then
+        printf "[ERROR] fix commit message before commiting\n"
+        exit 1
+    fi
+fi

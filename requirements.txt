@@ -1,0 +1,7 @@
+# python framework pip packages
+# - version using compatible release clause <package> ~= MAJOR.MINOR.MAINTENANCE
+# - keep packages in alphabetical order
+
+black ~= 22.3.0
+flake518 ~= 1.2.3
+ 

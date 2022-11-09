@@ -1,0 +1,11 @@
+# compiled python byte code
+*.py[cod]
+
+# log files
+*.log
+
+# editor files
+.vscode/
+
+# virtual environment files
+.venv/
