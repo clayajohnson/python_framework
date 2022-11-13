@@ -21,11 +21,10 @@
 <!-- TABLE OF CONTENTS -->
 ### Table of Contents ###
 1. [Abstract](#abstract)
-1. [Getting Started](#getting-started)
-1. [Usage](#abstract)
-1. [Testing](#abstract)
-1. [Contributing](#abstract)
-1. [Issues](#abstract)
+2. [Getting Started](#getting-started)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Issues](#issues)
 
 <!-- ABSTRACT -->
 ---
@@ -38,7 +37,7 @@ Lorem ipsum
 <!-- GETTING STARTED -->
 ---
 ## Getting Started ##
-Instructions on setting up the `python framework` locally
+Instructions on setting up the **python framework** locally
 
 ### Prerequisites ###
 * Python
@@ -49,7 +48,7 @@ Instructions on setting up the `python framework` locally
     ```
 
 ### Installation ###
-1. Clone the repo and change into the `python framework` directory
+1. Clone the repo and change into the **python framework** directory
     ```bash
     user@DESKTOP:~$ git clone git@github.com/repo
     ...
@@ -70,10 +69,10 @@ Instructions on setting up the `python framework` locally
 <!-- USAGE -->
 ---
 ## Usage ##
-Examples of using the `python framework`
+Examples of using the **python framework**
 
 ### Validating ###
-Run `make validate` to automatically format Python code in the `python framework` and check for linting errors. Alternatively, these steps can be run individually:
+Run `make validate` to automatically format Python code in the **python framework** and check for linting errors. Alternatively, these steps can be run individually:
 
 * Format code using the Black formatter:
     ```bash
@@ -98,7 +97,7 @@ Run `make validate` to automatically format Python code in the `python framework
     ```
 
 ### Testing ###
-Run `make test` to execute the full `python framework` test suite - including unit testing, integration testing, and end-to-end testing. Alternatively, these steps can be run individually:
+Run `make test` to execute the full **python framework** test suite - including unit testing, integration testing, and end-to-end testing. Alternatively, these steps can be run individually:
 
 * Run unit tests and generate a coverage report
     ```bash
@@ -108,7 +107,7 @@ Run `make test` to execute the full `python framework` test suite - including un
     ```bash
     ```
 
-* Run end-to-end tests and verify the `python framework` is operating correctly
+* Run end-to-end tests and verify the **python framework** is operating correctly
     ```bash
     ```
 
@@ -118,7 +117,7 @@ Run `make test` to execute the full `python framework` test suite - including un
 <!-- CONTRIBUTING -->
 ---
 ## Contributing ##
-How to contribute to the `python framework` repository
+How to contribute to the **python framework** repository
 
 1. Create a new branch
     ```bash
@@ -139,7 +138,7 @@ _For more information, please refer to the [Documentation][example-url]_
 <!-- ISSUES -->
 ---
 ## Issues ##
-Known issues and progress tracking on the `Python Framework`
+Known issues and progress tracking on the **python framework**
 
 | Issue | Description | Solution | Status |
 |:------|:------------|:---------|:-------|
@@ -153,11 +152,19 @@ Known issues and progress tracking on the `Python Framework`
 [python-url]: https://example.com
 
 [black-shield]: https://img.shields.io/badge/code%20style-logo?label=black&labelColor=010409&color=c9d1d9
+[black-url]: https://example.com
 
 [flake8-shield]: https://img.shields.io/badge/code%20linter-logo?label=flake8&labelColor=010409&color=c9d1d9
+[flake8-url]: https://example.com
+
+[github-shield]: https://img.shields.io/badge/github-logo?labelColor=010409&color=c9d1d9&logo=github&logoColor=c9d1d9color=c9d1d9
+[github-url]: https://example.com
 
 [bitbucket-shield]: https://img.shields.io/badge/BITBUCKET-logo?labelColor=0052cc&color=c9d1d9&logo=bitbucket&logoColor=c9d1d9
+[bitbucket-url]: https://example.com
 
 [confluence-shield]: https://img.shields.io/badge/CONFLUENCE-logo?labelColor=0052cc&color=c9d1d9&logo=confluence&logoColor=c9d1d9
+[confluence-url]: https://example.com
 
 [jira-shield]: https://img.shields.io/badge/JIRA-logo?labelColor=0052cc&color=c9d1d9&logo=jira&logoColor=c9d1d9
+[jira-url]: https://example.com
