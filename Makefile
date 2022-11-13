@@ -1,12 +1,16 @@
 SHELL := /bin/bash
 
 # setup python framework local environment from scratch
+setup: githooks environment requirements
 
 # validate all files in python framework project
+validate: format lint
 
 # run full python framework test suite (unit, integration, end-to-end)
+test: unit integration end-to-end
 
 # deploy python framework
+run: deploy teardown
 
 
 #---------------
